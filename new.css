@@ -34,6 +34,36 @@ main {
 .main-title span {
   font-size: 1.5em;
 }
-.main-title p{
+.main-title p {
   font-size: 3em;
+}
+/*All CATEGORIES section */
+.CATEGORIES {
+  width: 90%;
+  height: 100%;
+  justify-self: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.CATEGORIES img {
+  width: 50%;
+  padding: 10px;
+  height: 100%;
+}
+.discount {
+  width: 60%;
+  height: 100%;
+  justify-self: center;
+  align-content: center;
+}
+.discount span {
+  font-size: 2.5em;
+  color: #ff0000;
+}
+.discount p {
+  font-size: 1.5em;
+}
+.deals {
+  font-size: 0.7em !important;
+  color: #ff0000;
 }
