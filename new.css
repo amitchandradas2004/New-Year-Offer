@@ -19,9 +19,8 @@ main {
   background-size: contain;
   background-position: center;
   width: 90%;
-  height: 300px;
+  height: 400px;
   justify-self: center;
-  margin-top: 30px;
 }
 .main-title {
   color: rgb(247, 247, 243);
@@ -32,10 +31,10 @@ main {
   align-content: center;
 }
 .main-title span {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 .main-title p {
-  font-size: 3em;
+  font-size: 4em;
 }
 /*All CATEGORIES section */
 .CATEGORIES {
@@ -66,6 +65,54 @@ main {
 .deals {
   font-size: 0.7em !important;
   color: #ff0000;
+}
+/* Welcome to midnight party section */
+
+.Welcome {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  gap: 10px;
+  justify-self: center;
+  justify-content: space-around;
+  background: url(./images/Vectorrr.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.party {
+  width: 45%;
+  padding-left: 10px;
+  align-content: center;
+}
+.party span {
+  font-size: 3em;
+  color: white;
+  font-weight: bolder;
+  padding: 10px 0;
+}
+.party p {
+  font-size: 1em;
+  opacity: 80%;
+  color: white;
+  padding: 5px 0;
+}
+.btn {
+  width: 30%;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  padding: 20px 0;
+  background-color: transparent;
+}
+.year {
+  width: 45%;
+  padding: 20px;
+  align-items: end;
+}
+.year img {
+  width: 70%;
 }
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
