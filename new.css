@@ -12,6 +12,14 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
 /* Main section */
 .Main {
   background: url(./images/Banner-Image.png);
@@ -162,6 +170,52 @@
   font-weight: bold;
   margin-top: 20px;
   background-color: #ff0000;
+}
+/* New Best Offer section */
+.Coming-Soon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  gap: 10px;
+  justify-self: center;
+}
+.Offer {
+  align-content: center;
+}
+.new {
+  color: #ff0000;
+  font-size: 1em;
+  font-weight: bold;
+}
+.soon {
+  font-size: 2em;
+  font-weight: bold;
+}
+.offer-info {
+  color: #070211;
+  opacity: 60%;
+}
+.Celebration {
+  align-content: center;
+  text-align: center;
+  height: 300px;
+}
+.Celebration img {
+  border: 7px solid #ff0000;
+  border-radius: 50%;
+  padding: 10px;
+  width: 90%;
+}
+.Happy {
+  align-content: center;
+}
+.Happy img {
+  width: 50%;
+}
+.happy-year {
+  color: #ff0000;
+  font-weight: bolder;
+  font-size: 2em;
 }
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
