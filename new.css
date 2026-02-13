@@ -219,21 +219,41 @@
   font-size: 2em;
 }
 /* Holidays Sale section */
-.Holidays{
+.Holidays {
   width: 80%;
   justify-self: center;
   text-align: center;
-  border: 1px solid blue;
 }
-.FUNCTIONAL{
+.FUNCTIONAL {
   color: #070211;
 }
-.sale{
+.sale {
   font-size: 4em;
-
 }
-.holiday{
+.holiday {
   color: #ff0000;
+}
+.Discount {
+  display: flex;
+  width: 90%;
+  margin: 50px 0;
+  justify-content: space-between;
+  justify-self: center;
+}
+.celebrate {
+  width: 50%;
+  align-items: center;
+  align-content: center;
+}
+.celebrate img {
+  width: 100%;
+}
+.percent {
+  align-content: center;
+  text-align: endc;
+}
+.percent img {
+  width: 70%;
 }
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
