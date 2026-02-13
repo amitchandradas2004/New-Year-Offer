@@ -250,7 +250,7 @@
 }
 .percent {
   align-content: center;
-  text-align: endc;
+  text-align: end;
 }
 .percent img {
   width: 70%;
@@ -390,5 +390,31 @@
   }
   .Celebration img {
     width: 70%;
+  }
+  /* Holidays Sale section */
+  .sale {
+    font-size: 3em;
+  }
+  .Discount {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: 50px 0;
+    justify-content: center;
+    justify-self: center;
+  }
+  .celebrate {
+    width: 80%;
+    align-self: center;
+  }
+  .celebrate img {
+    width: 100%;
+  }
+  .percent {
+    align-content: center;
+    text-align: center;
+  }
+  .percent img {
+    width: 40%;
   }
 }
