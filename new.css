@@ -261,4 +261,29 @@
   .year img {
     width: 80%;
   }
+  /* New Park Hotel  section*/
+  .Hotel {
+    width: 70%;
+    height: 150px;
+    gap: 10px;
+    margin: 50px 0;
+  }
+  .Place {
+    display: flex;
+    font-size: 1em;
+  }
+  .Date {
+    display: flex;
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  .Time {
+    display: flex;
+    font-size: 1em;
+  }
+  .Join {
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+  }
 }
