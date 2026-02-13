@@ -218,6 +218,23 @@
   font-weight: bolder;
   font-size: 2em;
 }
+/* Holidays Sale section */
+.Holidays{
+  width: 80%;
+  justify-self: center;
+  text-align: center;
+  border: 1px solid blue;
+}
+.FUNCTIONAL{
+  color: #070211;
+}
+.sale{
+  font-size: 4em;
+
+}
+.holiday{
+  color: #ff0000;
+}
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Main section */
