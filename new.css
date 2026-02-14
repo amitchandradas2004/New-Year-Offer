@@ -328,32 +328,32 @@ button {
   cursor: pointer;
 }
 /* Footer section */
-footer{
+footer {
   margin-top: 50px;
   color: rgb(195, 196, 242);
   font-size: 1.1em;
   background-color: #09090e;
 }
-.footer{
+.footer {
   width: 90%;
   justify-self: center;
 }
-.footer-title{
+.footer-title {
   display: flex;
   height: 100px;
   align-items: center;
   justify-content: space-between;
 }
-.social{
+.social {
   text-align: center;
   height: 50px;
   align-content: center;
 }
-.social i{
+.social i {
   width: 6%;
   align-content: center;
 }
-.Right{
+.Right {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -567,5 +567,36 @@ footer{
   button {
     border: none;
     font-size: 1em;
+  }
+  /* Footer section */
+  footer {
+    margin-top: 70px;
+    font-size: 1em;
+    text-align: center;
+    gap: 20px;
+  }
+  .footer {
+    width: 90%;
+    justify-self: center;
+  }
+  .footer-title {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding-top: 20px;
+  }
+  .social {
+    text-align: center;
+    height: 70px;
+    align-content: center;
+  }
+  .social i {
+    width: 6%;
+    margin: 10px;
+  }
+  .Right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
