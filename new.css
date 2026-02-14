@@ -255,6 +255,32 @@
 .percent img {
   width: 70%;
 }
+/* Our Awesome Portfolio */
+.Best {
+  width: 90%;
+  justify-self: center;
+}
+.Best-Gifts {
+  width: 70%;
+}
+.Best-Gifts span {
+  font-size: 1.5em;
+  color: #ff0000;
+}
+.Best-Gifts h3 {
+  font-size: 3em;
+}
+.Gift {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.Gift img {
+  width: 100%;
+}
+/* Our Awesome Portfolio Section */
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Main section */
