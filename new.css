@@ -443,4 +443,20 @@
   .percent img {
     width: 40%;
   }
+  /* Our Awesome Portfolio */
+  .Best {
+    width: 90%;
+    justify-self: center;
+  }
+  .Best-Gifts {
+    width: 100%;
+  }
+
+  .Gift {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 30px;
+    margin-top: 50px;
+  }
 }
