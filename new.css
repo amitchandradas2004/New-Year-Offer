@@ -280,7 +280,53 @@
 .Gift img {
   width: 100%;
 }
-/* Our Awesome Portfolio Section */
+/*Subscribe Newsletter  */
+.Newsletter {
+  width: 70%;
+  justify-self: center;
+  text-align: center;
+  margin-top: 100px ;
+}
+.Newsletter h2 {
+  font-size: 3em;
+}
+.Input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.Email {
+  width: 60%;
+  height: 50px;
+  align-content: center;
+  text-align: start;
+  padding-left: 20px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  background-color: rgb(234, 236, 238);
+}
+input {
+  font-size: 1em;
+  background: none;
+  border: none;
+}
+.Button {
+  width: 40%;
+  height: 50px;
+  align-content: center;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: #ff0000;
+  cursor: pointer;
+}
+button {
+  border: none;
+  font-size: 1.5em;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Main section */
