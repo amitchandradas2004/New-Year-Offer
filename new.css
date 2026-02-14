@@ -327,6 +327,38 @@ button {
   color: white;
   cursor: pointer;
 }
+/* Footer section */
+footer{
+  margin-top: 50px;
+  color: rgb(195, 196, 242);
+  font-size: 1.1em;
+  background-color: #09090e;
+}
+.footer{
+  width: 90%;
+  justify-self: center;
+}
+.footer-title{
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.social{
+  text-align: center;
+  height: 50px;
+  align-content: center;
+}
+.social i{
+  width: 6%;
+  align-content: center;
+}
+.Right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
 /* Responsive for mobile devices */
 @media screen and (max-width: 576px) {
   /* Main section */
